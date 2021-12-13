@@ -277,7 +277,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "help":
             buttons = [
                 [
-                    InlineKeyboardButton('My Creator', url=f'{TUTORIAL}')
+                    InlineKeyboardButton('My Creator', url=f'{My Creator}')
                 ]
                 ]
             await query.message.edit(text=f"{HELP}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -285,7 +285,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('My Creator', url=f'https://t.me/MayilM07')
+                    InlineKeyboardButton('My Creator', url=f'{My Creator}')
                 ]
                 ]
             await query.message.edit(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -308,7 +308,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('My Creator', url=f'https://t.me/MayilM07')
+                        InlineKeyboardButton('My Creator', url=f'{My Creator')
                     ]
                     ]
                 
@@ -339,7 +339,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('My Creator', url=f'https://t.me/MayilM07')
+                        InlineKeyboardButton('My Creator', url=f'{My Creator}')
                     ]
                     ]
                 
